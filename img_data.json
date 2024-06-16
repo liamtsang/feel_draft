@@ -1,0 +1,39 @@
+{	
+  "images": [
+		{
+			"project": "States",
+			"image_title": "States_Flag.jpg",
+			"project_link": "/states/flag",
+			"width": 5280,
+			"height": 6600,
+			"ratio": 0.5,
+			"rotation": -1,
+			"x": 0,
+			"y": 0
+		},
+		{
+			"project": "Material Good",
+			"image_title": "MG_AD.jpg",
+			"project_link": "/test",
+			"width": 1920,
+			"height": 2405,
+			"ratio": 1,
+			"rotation": 1,
+			"x": 5000,
+			"y": -500
+		}
+	],
+	"videos": [
+		{
+			"project": "Piaule Sheets",
+			"image_title": "Piaule_Sheets_loop.mp4",
+			"project_link": "/test",
+			"width": 1600,
+			"height": 1200,
+			"ratio": 1,
+			"rotation": 1,
+			"x": 500,
+			"y": 4500
+		}
+	]
+}

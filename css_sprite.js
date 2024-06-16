@@ -6,6 +6,7 @@ import {
   CSS3DRenderer,
   CSS3DSprite
 } from 'three/addons/renderers/CSS3DRenderer.js'
+import img_data_json from './img_data.json'
 
 let camera, scene, renderer
 let controls
@@ -29,23 +30,27 @@ function init() {
   camera.lookAt(0, 0, 0)
 
   scene = new THREE.Scene()
+  console.log(img_data_json)
 
   const image = document.createElement('img')
   image.addEventListener('load', function () {
-    for (let i = 0; i < particlesTotal; i++) {
+    for (let i = 0; i < img_data_json.images.length; i++) {
       const object = new CSS3DSprite(image.cloneNode())
       ;(object.position.x = Math.random() * 4000 - 2000),
         (object.position.y = Math.random() * 4000 - 2000),
-        (object.position.z = Math.random() * 4000 - 2000)
-      scene.add(object)
+        (object.position.z = Math.random() * 4000 - 2000),
+        scene.add(object)
 
       objects.push(object)
     }
-
+    image.src = `images/${img_data_json.images[i].image_title}`
     transition()
   })
-  image.src = 'test/1.jpg'
 
+  image.src = `images/${img_data_json.images[0].image_title}`
+  image.addEventListener('click', function () {
+    console.log('test')
+  })
   // Plane
 
   const amountX = 16
@@ -154,7 +159,7 @@ function transition() {
 function animate() {
   requestAnimationFrame(animate)
 
-  TWEEN.update()
+  // TWEEN.update()
   controls.update()
 
   const time = performance.now()
