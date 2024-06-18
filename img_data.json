@@ -1,7 +1,7 @@
 {	
   "images": [
 		{
-			"project": "States",
+			"project": "states",
 			"image_title": "States_Flag.jpg",
 			"project_link": "/states/flag",
 			"width": 5280,
@@ -12,28 +12,127 @@
 			"y": 0
 		},
 		{
-			"project": "Material Good",
+			"project": "material_good",
 			"image_title": "MG_AD.jpg",
 			"project_link": "/test",
 			"width": 1920,
 			"height": 2405,
 			"ratio": 1,
+			"rotation": -1,
+			"x": 4000,
+			"y": 500
+		},
+		{
+			"project": "?",
+			"image_title": "pasted-movie.png",
+			"project_link": "/test",
+			"width": 1010,
+			"height": 1260,
+			"ratio": 1,
 			"rotation": 1,
 			"x": 5000,
-			"y": -500
+			"y": 5000
+		},
+		{
+			"project": "saturday",
+			"image_title": "saturday.webp",
+			"project_link": "/test",
+			"width": 3840,
+			"height": 4801,
+			"ratio": 0.15,
+			"rotation": 1,
+			"x": 23000,
+			"y": -20000
+		},
+		{
+			"project": "noah",
+			"image_title": "NOAH_02-1024x576.jpg",
+			"project_link": "/test",
+			"width": 1024,
+			"height": 576,
+			"ratio": 1.25,
+			"rotation": 1,
+			"x": 900,
+			"y": -3250
+		},
+		{
+			"project": "partow",
+			"image_title": "PARTOW_R24.jpg",
+			"project_link": "/test",
+			"width": 1536,
+			"height": 1920,
+			"ratio": 0.75,
+			"rotation": -1,
+			"x": 5000,
+			"y": -7500
+		},
+		{
+			"project": "calvin_klein",
+			"image_title": "KIDS_CKL.jpg",
+			"project_link": "/test",
+			"width": 4636,
+			"height": 3600,
+			"ratio": 0.25,
+			"rotation": -1,
+			"x": -12500,
+			"y": 25000
 		}
 	],
 	"videos": [
 		{
-			"project": "Piaule Sheets",
+			"project": "piaule",
 			"image_title": "Piaule_Sheets_loop.mp4",
 			"project_link": "/test",
 			"width": 1600,
 			"height": 1200,
 			"ratio": 1,
+			"rotation": -1,
+			"x": -300,
+			"y": 2300
+		},
+		{
+			"project": "calvin_klein",
+			"image_title": "CKPO_DROP1_KAIA_VACCUM_1080x1080.mp4",
+			"project_link": "/test",
+			"width": 1080,
+			"height": 1080,
+			"ratio": 1,
+			"rotation": -1,
+			"x": 1500,
+			"y": 2500
+		},
+		{
+			"project": "?",
+			"image_title": "teaser 1.mov",
+			"project_link": "/test",
+			"width": 512,
+			"height": 640,
+			"ratio": 2,
+			"rotation": -1,
+			"x": 2750,
+			"y": -1500
+		},
+		{
+			"project": "calvin_klein",
+			"image_title": "bella_hadid_calvin_klein.mp4",
+			"project_link": "/test",
+			"width": 1280,
+			"height": 720,
+			"ratio": 1,
+			"rotation": -1,
+			"x": -700,
+			"y": -2000
+		},
+		{
+			"project": "piaule",
+			"image_title": "Pool Group.mp4",
+			"project_link": "/test",
+			"width": 1920,
+			"height": 1080,
+			"ratio": 1,
 			"rotation": 1,
-			"x": 500,
-			"y": 4500
+			"x": -2200,
+			"y": 2000
 		}
 	]
 }
